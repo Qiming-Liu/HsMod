@@ -6,6 +6,9 @@ on:
     paths:
       - '**PluginInfo.cs'
 
+permissions:
+  contents: write
+
 jobs:
   build:
 
